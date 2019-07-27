@@ -3,6 +3,19 @@ function position(number)
     window.guess = parseInt(number);
     play();
 }
+function pack()
+{
+    document.getElementById("balance").value=window.balance;
+    document.getElementById("divisionOne").style.backgroundImage = 'url(back.jpg)';
+    document.getElementById("divisionOne").style.backgroundPosition ='center';
+    document.getElementById("divisionOne").style.backgroundRepeat='no-repeat';
+    document.getElementById("divisionTwo").style.backgroundImage = 'url(back.jpg)';
+    document.getElementById("divisionTwo").style.backgroundPosition ='center';
+    document.getElementById("divisionTwo").style.backgroundRepeat='no-repeat';
+    document.getElementById("divisionThree").style.backgroundImage = 'url(back.jpg)';
+    document.getElementById("divisionThree").style.backgroundPosition ='center';
+    document.getElementById("divisionThree").style.backgroundRepeat='no-repeat';
+}
 window.balance=100;
 
 window.addEventListener('DOMContentLoaded', (event) => {
