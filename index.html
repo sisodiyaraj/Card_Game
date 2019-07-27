@@ -72,11 +72,11 @@
                     </tr> -->
                     <tr>
                         <td style="color:white">Result&nbsp: </td>
-                        <td><input disabled="disabled" type='text' name='name'id="result" ></td>
+                        <td><input disabled="disabled" type='text' name='name'id="result" size="15" ></td>
                     </tr>
                     <tr>
-                        <td style="color:white">Total&nbspbalance&nbsp: </td>
-                        <td><input disabled="disabled" type='text' name='name'id="balance"></td>
+                        <td style="color:white">Balance&nbsp: </td>
+                        <td><input disabled="disabled" type='text' name='name'id="balance" size="15"></td>
                     </tr>
                 </table>
         </div>
@@ -88,24 +88,23 @@
                 </tr>
                 <tr> <td>&nbsp;</td> </tr>
                 <tr>
-                    <td>Select&nbspthe&nbspposition&nbspof&nbspQueen:</td>
+                    <td colspan="2" rowspan="3"><p>Select&nbspthe&nbspposition&nbspof&nbspQueen:</p>
                     <!-- <td><input type='button' name='name'id="guess">first</td> -->
-                    <td >
+                    
                         <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;" onclick="position(1)">First</button>
                         <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;" onclick="position(2)">Second</button>
                         <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;"  onclick="position(3)">Third</button>
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="2">
-                        <button type="button" class="btn" style="background-color: rgb(75, 75, 75);color: white;" onclick="pack()">pack</button>
-                    </td>
-                </tr>
+               
+                
                 
                 <!-- <tr>
                     <td colspan="2"><button type="button" onclick="play()">Place Bet</button></td>
                 </tr> -->
         </table>
+        <button type="button" class="btn" style="background-color: rgb(75, 75, 75);color: white;" onclick="pack()">pack</button>
+
 
         <!-- <p>Enter Your bet: <input type="text" size=10 name="Name"> </p><br>        
         <p> Guess the place of Queen: <input type="text" size=10 name="Address">  </p><br> -->
