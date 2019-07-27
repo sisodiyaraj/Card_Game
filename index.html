@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" >
+    <link rel="stylesheet" type="text/css" href=" css/bootstrap-grid.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" >
+    <script type="text/javascript" src="Game.js"></script>
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Card Game</title>
+</head> 
+<body style="background-color:rgb(163, 159, 159)">
+    <!-- <div class="jumbotron" style="margin-bottom:0px ">
+    <h2>Simple Game</h2>
+    <p>this is simple card guessing game</p>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
+        
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+        <!-- <a class="navbar-brand"><img src="#"</a> -->
+        <span class="navbar-text"><b>Sisodiyaraj</b></span>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" > Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://sisodiyaraj.github.io/best_button/" target="_blank"> Button </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://sisodiyaraj.github.io/calculator/" target="_blank"> Calculator </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" > Login </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" > Signup </a>
+             </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="a d-inline bg-success"></div>
+    <div class="b d-inline bg-success"></div>
+    <div class="c d-inline bg-success"></div> -->
+
+
+<div class="container">
+    <div class="row">
+            <div class="a col" id="divisionOne"></div>
+            <div class="b col" id="divisionTwo"></div>           
+            <div class="c col" id="divisionThree"></div>
+        <!-- <div class="a col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="b col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="c col-lg-3 col-md-3 col-sm-3"></div> -->
+    </div>
+</div>
+<div class="container" id="main">
+<form action="" class="Game_form" name="main_form" id="main_G">
+        <div>
+                <table class="inner" frame="box">
+                    <!-- <tr>
+                        <td style="color:white">Initial&nbspBalance: </td>
+                        <td><input disabled="disabled" type='text' name='name'id="initial" ></td>
+                    </tr> -->
+                    <tr>
+                        <td style="color:white">Result&nbsp: </td>
+                        <td><input disabled="disabled" type='text' name='name'id="result" ></td>
+                    </tr>
+                    <tr>
+                        <td style="color:white">Total&nbspbalance&nbsp: </td>
+                        <td><input disabled="disabled" type='text' name='name'id="balance"></td>
+                    </tr>
+                </table>
+        </div>
+        <table border='0'  cellpadding='5px' cellspacing='5px' >
+                <tr>
+                    <td >Enter&nbspyour&nbspbet:</td>
+                    <td><input type='text' name='bet' id="bet"></td>
+                    
+                </tr>
+                <tr> <td>&nbsp;</td> </tr>
+                <tr>
+                    <td>Select&nbspthe&nbspposition&nbspof&nbspQueen:</td>
+                    <!-- <td><input type='button' name='name'id="guess">first</td> -->
+                    <td >
+                        <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;" onclick="position(1)">First</button>
+                        <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;" onclick="position(2)">Second</button>
+                        <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;"  onclick="position(3)">Third</button>
+                    </td>
+                    
+
+                </tr>
+                <!-- <tr>
+                    <td colspan="2"><button type="button" onclick="play()">Place Bet</button></td>
+                </tr> -->
+        </table>
+
+        <!-- <p>Enter Your bet: <input type="text" size=10 name="Name"> </p><br>        
+        <p> Guess the place of Queen: <input type="text" size=10 name="Address">  </p><br> -->
+</form>
+</div>
+</body>
