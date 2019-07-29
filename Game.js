@@ -16,6 +16,7 @@ function pack()
     document.getElementById("divisionThree").style.backgroundPosition ='center';
     document.getElementById("divisionThree").style.backgroundRepeat='no-repeat';
 }
+
 window.balance=100;
 
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -66,8 +67,8 @@ function play()
     //document.getElementById("balance").value=initial_amount;
     if((window.balance<bet) || (window.balance == 0))
     {
-       document.getElementById("result").value= "you have insufficient balance"
-       window.alert("Looks like you have insufficient balance!!\nTry again with less amount!")
+       document.getElementById("result").value= "you have insufficient balance";
+       window.alert("Looks like you have insufficient balance!!\nTry again with less amount!");
     }
     else
     {
