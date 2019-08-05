@@ -13,14 +13,15 @@
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/custom.css">
     <title>Card Game</title>
-</head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body style="background-color:rgb(163, 159, 159)">
     <!-- <div class="jumbotron" style="margin-bottom:0px ">
     <h2>Simple Game</h2>
     <p>this is simple card guessing game</p>
     </div> -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
-        
+
         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,7 +56,7 @@
 <div>
     <div class="row">
             <div class="a col" id="divisionOne"></div>
-            <div class="b col" id="divisionTwo"></div>           
+            <div class="b col" id="divisionTwo"></div>
             <div class="c col" id="divisionThree"></div>
         <!-- <div class="a col-lg-3 col-md-3 col-sm-3"></div>
         <div class="b col-lg-3 col-md-3 col-sm-3"></div>
@@ -84,21 +85,21 @@
                 <tr>
                     <td >Enter&nbspyour&nbspbet:</td>
                     <td><input type='text' name='bet' id="bet" size="12"></td>
-                    
+
                 </tr>
-                <tr> <td>&nbsp;</td> </tr>
+                <!-- <tr> <td>&nbsp;</td> </tr> -->
                 <tr>
                     <td colspan="2" rowspan="3"><p>Select&nbspthe&nbspposition&nbspof&nbspQueen:</p>
                     <!-- <td><input type='button' name='name'id="guess">first</td> -->
-                    
+
                         <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;" onclick="position(1)">First</button>
                         <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;" onclick="position(2)">Second</button>
                         <button type="button" class="btn" style="background-color: rgb(3, 139, 7);color: white;"  onclick="position(3)">Third</button>
                     </td>
                 </tr>
-               
-                
-                
+
+
+
                 <!-- <tr>
                     <td colspan="2"><button type="button" onclick="play()">Place Bet</button></td>
                 </tr> -->
@@ -106,7 +107,7 @@
         <button type="button" class="btn" style="background-color: rgb(75, 75, 75);color: white;" onclick="pack()">pack</button>
 
 
-        <!-- <p>Enter Your bet: <input type="text" size=10 name="Name"> </p><br>        
+        <!-- <p>Enter Your bet: <input type="text" size=10 name="Name"> </p><br>
         <p> Guess the place of Queen: <input type="text" size=10 name="Address">  </p><br> -->
 </form>
 </div>
